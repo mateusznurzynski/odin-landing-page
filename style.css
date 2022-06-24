@@ -28,7 +28,8 @@ nav {
   color: rgb(214, 214, 214);
 }
 .container {
-  margin: 0 10%;
+  padding: 0 30px;
+  margin: 0 auto;
   max-width: 1000px;
 }
 .media {
@@ -107,7 +108,28 @@ nav {
   display: flex;
   gap: 60px;
 }
-
+.quote {
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+  padding: 100px 0;
+  margin-top: 100px;
+}
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+.quote-author {
+  justify-self: flex-end;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+}
+.quote-text {
+  font-size: 150%;
+  color: rgb(41, 41, 41);
+}
 @media (max-width: 850px) {
   .media-image {
     display: none;
