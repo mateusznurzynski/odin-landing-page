@@ -187,11 +187,7 @@ footer {
 @media (max-width: 600px) {
   .action {
     flex-direction: column;
-    /* box-sizing: content-box; */
     text-align: center;
     gap: 20px;
-  }
-  .action-text {
-    /* margin-bottom: 20px; */
   }
 }
